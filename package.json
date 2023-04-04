@@ -1,0 +1,27 @@
+{
+  "name": "Dark-Carbon",
+  "displayName": "Dark Carbon",
+  "description": "The Visual Studio Code (VSCode) dark theme is a color scheme designed to provide a sleek, modern look to the popular code editor. This theme is optimized for coding in low-light environments and is a popular choice among developers who spend long hours coding on their computers.",
+  "version": "0.0.3",
+  "publisher": "dash-code",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+  "icon": "./icon.jpeg",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark-Carbon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark-Carbon-color-theme.json"
+      }
+    ]
+  }
+}
